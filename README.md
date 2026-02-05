@@ -2,12 +2,14 @@
 
 HEEx template parser for JavaScript/TypeScript. Parse Phoenix LiveView templates in Node.js or the browser.
 
-[![npm version](https://img.shields.io/npm/v/@httpeex/heex.svg)](https://www.npmjs.com/package/@httpeex/heex)
-
 ## Installation
 
+Download from [GitHub Releases](https://github.com/notactuallytreyanastasio/heex-js/releases):
+
 ```bash
-npm install @httpeex/heex
+# Download the latest release
+curl -LO https://github.com/notactuallytreyanastasio/heex-js/releases/latest/download/heex-js.tar.gz
+tar -xzf heex-js.tar.gz
 ```
 
 ## Usage
@@ -78,7 +80,6 @@ const doc: Document = parse('<div></div>');
 ## Requirements
 
 - Node.js 18+ or modern browser
-- Depends on `@temperlang/core` and `@temperlang/std`
 
 ## Source
 
