@@ -1,0 +1,14 @@
+{
+    "name": "@httpeex/heex",
+    "version": "0.1.0",
+    "description": "HEEx template parser and renderer",
+    "license": "MIT",
+    "type": "module",
+    "exports": {
+        "./heex": "./heex.js",
+        ".": "./index.js"
+    },
+    "dependencies": {
+        "@temperlang/core": "0.6.0"
+    }
+}
